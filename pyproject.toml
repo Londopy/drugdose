@@ -7,7 +7,7 @@ name = "drugdose"
 version = "0.1.0"
 description = "EMS & clinical drug dosing calculator library with CLI"
 readme = "README.md"
-license = { text = "MIT" }
+license = "MIT"
 keywords = ["EMS", "pharmacology", "drug dosing", "clinical", "paramedic", "calculator"]
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -20,6 +20,7 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Typing :: Typed",
 ]
 requires-python = ">=3.10"
 dependencies = [
@@ -37,12 +38,14 @@ dev = [
 drugdose = "drugdose.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/londonchowdhury/drugdose"
-Repository = "https://github.com/Londopy/patchnotes"
-"Bug Tracker" = "https://github.com/Londopy/patchnotes/issues"
+Homepage = "https://github.com/Londopy/drugdose"
+Repository = "https://github.com/Londopy/drugdose"
+"Bug Tracker" = "https://github.com/Londopy/drugdose/issues"
+Disclaimer = "https://github.com/Londopy/drugdose/blob/main/DISCLAIMER.md"
 
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["."]
+include = ["drugdose*"]
 
 [tool.setuptools.package-data]
 drugdose = ["data/*.json"]
