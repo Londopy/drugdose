@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drugdose"
+version = "0.1.0"
+description = "EMS & clinical drug dosing calculator library with CLI"
+readme = "README.md"
+license = { text = "MIT" }
+keywords = ["EMS", "pharmacology", "drug dosing", "clinical", "paramedic", "calculator"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Healthcare Industry",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "rich>=13.0",
+    "click>=8.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+]
+
+[project.scripts]
+drugdose = "drugdose.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/londonchowdhury/drugdose"
+Repository = "https://github.com/Londopy/patchnotes"
+"Bug Tracker" = "https://github.com/Londopy/patchnotes/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+drugdose = ["data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

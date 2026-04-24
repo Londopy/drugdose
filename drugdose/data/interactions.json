@@ -1,0 +1,285 @@
+{
+  "_comment": "Drug interaction rule set. Keys are canonical lowercase drug names. Each entry maps to a list of interactions.",
+  "interactions": [
+    {
+      "drug_a": "fentanyl",
+      "drug_b": "midazolam",
+      "severity": "major",
+      "description": "Additive CNS and respiratory depression. Co-administration significantly increases risk of apnea, hypoxia, and respiratory arrest.",
+      "management": "Reduce doses of both agents when combined. Have airway equipment and naloxone/flumazenil immediately available. Monitor SpO2 continuously."
+    },
+    {
+      "drug_a": "fentanyl",
+      "drug_b": "lorazepam",
+      "severity": "major",
+      "description": "Additive CNS and respiratory depression. Combination can cause life-threatening respiratory depression.",
+      "management": "Reduce both doses, monitor closely, have reversal agents ready."
+    },
+    {
+      "drug_a": "fentanyl",
+      "drug_b": "diazepam",
+      "severity": "major",
+      "description": "Additive respiratory depression with increased risk of apnea.",
+      "management": "Reduce doses, monitor respiration continuously."
+    },
+    {
+      "drug_a": "morphine",
+      "drug_b": "midazolam",
+      "severity": "major",
+      "description": "Synergistic respiratory depression. Risk of apnea and cardiovascular depression.",
+      "management": "Use lowest effective doses. Monitor SpO2, have naloxone and flumazenil available."
+    },
+    {
+      "drug_a": "morphine",
+      "drug_b": "lorazepam",
+      "severity": "major",
+      "description": "Synergistic CNS and respiratory depression. FDA Black Box Warning for opioid+benzodiazepine combination.",
+      "management": "Avoid combination when possible. If required, reduce doses and monitor closely."
+    },
+    {
+      "drug_a": "ketamine",
+      "drug_b": "haloperidol",
+      "severity": "moderate",
+      "description": "Potential for prolonged recovery and increased emergence reactions. Both lower seizure threshold at high doses.",
+      "management": "Use lower ketamine doses when combined. Monitor for dysphoria or emergence reactions."
+    },
+    {
+      "drug_a": "amiodarone",
+      "drug_b": "digoxin",
+      "severity": "major",
+      "description": "Amiodarone significantly increases digoxin plasma levels (up to 2x) by reducing renal and non-renal clearance.",
+      "management": "Reduce digoxin dose by 50% when amiodarone is added. Monitor digoxin levels and for signs of toxicity (nausea, bradycardia, visual changes)."
+    },
+    {
+      "drug_a": "amiodarone",
+      "drug_b": "metoprolol",
+      "severity": "major",
+      "description": "Additive negative chronotropy and dromotropy. Increased risk of severe bradycardia, heart block, and sinus arrest.",
+      "management": "Use with extreme caution. Monitor ECG and vitals continuously."
+    },
+    {
+      "drug_a": "amiodarone",
+      "drug_b": "diltiazem",
+      "severity": "major",
+      "description": "Additive AV nodal suppression. Risk of complete heart block and severe bradycardia.",
+      "management": "Avoid combination if possible. If required, monitor ECG continuously and have atropine/pacing available."
+    },
+    {
+      "drug_a": "amiodarone",
+      "drug_b": "heparin",
+      "severity": "moderate",
+      "description": "Amiodarone may potentiate anticoagulant effects of heparin, increasing bleeding risk.",
+      "management": "Monitor aPTT or anti-Xa levels more frequently when initiating amiodarone."
+    },
+    {
+      "drug_a": "metoprolol",
+      "drug_b": "diltiazem",
+      "severity": "major",
+      "description": "Synergistic bradycardia and AV nodal block. Risk of severe hemodynamic compromise.",
+      "management": "Avoid concurrent IV use if possible. Monitor ECG and blood pressure closely."
+    },
+    {
+      "drug_a": "metoprolol",
+      "drug_b": "epinephrine",
+      "severity": "major",
+      "description": "Beta-blockade prevents epinephrine from acting on beta receptors, leaving unopposed alpha stimulation. May cause severe hypertension and reflex bradycardia.",
+      "management": "Use glucagon (5-10 mg IV) for beta-blocker reversal instead of epinephrine. Monitor ECG and BP."
+    },
+    {
+      "drug_a": "nitroglycerin",
+      "drug_b": "sildenafil",
+      "severity": "major",
+      "description": "Profound, potentially fatal hypotension. Both drugs cause vasodilation via cGMP pathway.",
+      "management": "ABSOLUTE CONTRAINDICATION. Do not use within 24 hours of sildenafil/vardenafil or 48 hours of tadalafil."
+    },
+    {
+      "drug_a": "nitroglycerin",
+      "drug_b": "tadalafil",
+      "severity": "major",
+      "description": "Life-threatening hypotension when nitroglycerin given within 48 hours of tadalafil.",
+      "management": "ABSOLUTE CONTRAINDICATION for 48 hours after tadalafil use."
+    },
+    {
+      "drug_a": "haloperidol",
+      "drug_b": "ondansetron",
+      "severity": "major",
+      "description": "Additive QTc prolongation. Increased risk of Torsades de Pointes and fatal arrhythmia.",
+      "management": "Obtain baseline ECG. Monitor QTc. Avoid in patients with QTc >500 ms."
+    },
+    {
+      "drug_a": "haloperidol",
+      "drug_b": "amiodarone",
+      "severity": "major",
+      "description": "Additive QTc prolongation and Torsades de Pointes risk.",
+      "management": "Avoid combination. If required, continuous cardiac monitoring mandatory."
+    },
+    {
+      "drug_a": "ondansetron",
+      "drug_b": "amiodarone",
+      "severity": "major",
+      "description": "Additive QTc prolongation. Both drugs independently prolong QT interval.",
+      "management": "Monitor ECG, avoid in patients with QTc >450 ms."
+    },
+    {
+      "drug_a": "succinylcholine",
+      "drug_b": "rocuronium",
+      "severity": "moderate",
+      "description": "Combination not indicated. Rocuronium should be used as alternative when succinylcholine is contraindicated, not in combination.",
+      "management": "Use one NMB agent at a time. If succinylcholine given, do not add rocuronium until effect has worn off."
+    },
+    {
+      "drug_a": "propofol",
+      "drug_b": "midazolam",
+      "severity": "moderate",
+      "description": "Additive CNS depression. Hypotension and respiratory depression are enhanced.",
+      "management": "Reduce doses of both agents. Monitor airway and hemodynamics continuously."
+    },
+    {
+      "drug_a": "propofol",
+      "drug_b": "fentanyl",
+      "severity": "moderate",
+      "description": "Additive respiratory depression. Combination used in balanced anesthesia — requires dose reduction of both agents.",
+      "management": "Reduce propofol induction dose by 20-30%. Monitor SpO2 and ETCO2."
+    },
+    {
+      "drug_a": "furosemide",
+      "drug_b": "vancomycin",
+      "severity": "major",
+      "description": "Both agents are ototoxic. Concurrent use markedly increases risk of permanent hearing loss.",
+      "management": "Avoid concurrent use if possible. If required, use lowest effective doses and monitor audiologically. Separate administration times."
+    },
+    {
+      "drug_a": "furosemide",
+      "drug_b": "digoxin",
+      "severity": "major",
+      "description": "Furosemide-induced hypokalemia and hypomagnesemia significantly increases risk of digoxin toxicity and fatal arrhythmias.",
+      "management": "Monitor electrolytes closely. Replete K+ and Mg2+ aggressively. Monitor digoxin levels."
+    },
+    {
+      "drug_a": "furosemide",
+      "drug_b": "insulin_regular",
+      "severity": "minor",
+      "description": "Furosemide-induced electrolyte changes (hypokalemia) may affect insulin dosing requirements and mask hypoglycemia.",
+      "management": "Monitor glucose and K+ closely. Adjust insulin dose as needed."
+    },
+    {
+      "drug_a": "heparin",
+      "drug_b": "ketorolac",
+      "severity": "major",
+      "description": "NSAIDs inhibit platelet aggregation and may cause GI erosions, markedly increasing bleeding risk when combined with anticoagulants.",
+      "management": "Avoid concurrent use. If analgesic required, consider acetaminophen instead."
+    },
+    {
+      "drug_a": "heparin",
+      "drug_b": "alteplase",
+      "severity": "major",
+      "description": "Combination dramatically increases bleeding risk. Typically heparin is held during tPA infusion and started after.",
+      "management": "Do not start heparin during tPA infusion. Follow institution stroke/PE protocol for timing of heparin initiation."
+    },
+    {
+      "drug_a": "magnesium_sulfate",
+      "drug_b": "succinylcholine",
+      "severity": "moderate",
+      "description": "Magnesium potentiates neuromuscular blockade, possibly prolonging paralysis unexpectedly.",
+      "management": "Reduce succinylcholine dose. Monitor neuromuscular function. Have sugammadex or neostigmine available."
+    },
+    {
+      "drug_a": "magnesium_sulfate",
+      "drug_b": "rocuronium",
+      "severity": "moderate",
+      "description": "Magnesium potentiates non-depolarizing NMB, prolonging block and increasing risk of residual paralysis.",
+      "management": "Reduce rocuronium dose. Monitor TOF (train-of-four) twitch response. Use sugammadex for reversal."
+    },
+    {
+      "drug_a": "naloxone",
+      "drug_b": "morphine",
+      "severity": "moderate",
+      "description": "Intended interaction: naloxone reverses opioid effects. Risk of acute opioid withdrawal, severe pain, pulmonary edema, and hypertensive crisis with rapid reversal.",
+      "management": "Titrate naloxone in small doses (0.04 mg IV increments) for non-arrest opioid reversal. Full dose (2 mg) appropriate for cardiac arrest."
+    },
+    {
+      "drug_a": "naloxone",
+      "drug_b": "fentanyl",
+      "severity": "moderate",
+      "description": "Naloxone half-life (~60-90 min) shorter than fentanyl. Risk of re-narcotization after single naloxone dose.",
+      "management": "Monitor for re-narcotization for at least 2-3 hours after reversal. Consider naloxone infusion for long-acting opioid overdose."
+    },
+    {
+      "drug_a": "dopamine",
+      "drug_b": "norepinephrine",
+      "severity": "moderate",
+      "description": "Additive vasopressor effects. Risk of excessive hypertension, tachycardia, and increased myocardial oxygen demand.",
+      "management": "Monitor hemodynamics closely. Titrate doses carefully. Consider arterial line placement."
+    },
+    {
+      "drug_a": "dopamine",
+      "drug_b": "epinephrine",
+      "severity": "moderate",
+      "description": "Additive catecholamine stimulation. Risk of severe tachycardia, hypertension, and arrhythmias.",
+      "management": "Use lowest effective doses. Consider ECG monitoring. One vasopressor usually sufficient."
+    },
+    {
+      "drug_a": "insulin_regular",
+      "drug_b": "dextrose",
+      "severity": "minor",
+      "description": "Intended combination for hyperkalemia treatment. Dextrose prevents hypoglycemia. Monitor glucose carefully.",
+      "management": "Give together for hyperkalemia. Monitor blood glucose every 30-60 minutes for 4-6 hours. Repeat glucose if clinically indicated."
+    },
+    {
+      "drug_a": "calcium_gluconate",
+      "drug_b": "digoxin",
+      "severity": "major",
+      "description": "IV calcium can precipitate severe cardiac arrhythmias (VT/VF) in patients on digoxin by potentiating glycoside toxicity.",
+      "management": "AVOID IV calcium in digoxin toxicity. If hyperkalemia with digoxin toxicity, use sodium bicarbonate and kayexalate instead. If calcium must be given, do so very slowly with continuous ECG monitoring."
+    },
+    {
+      "drug_a": "ceftriaxone",
+      "drug_b": "calcium_gluconate",
+      "severity": "major",
+      "description": "Physical incompatibility: ceftriaxone-calcium precipitates can form, especially in neonates. Fatal pulmonary and renal precipitation reported in neonates.",
+      "management": "NEVER mix in same IV line. Flush line thoroughly between administration. In neonates (<28 days), use different IV sites with at least 48 hours between administrations."
+    },
+    {
+      "drug_a": "ketorolac",
+      "drug_b": "vancomycin",
+      "severity": "moderate",
+      "description": "NSAIDs reduce renal blood flow, potentially increasing vancomycin nephrotoxicity.",
+      "management": "Monitor renal function. Use lowest effective doses. Prefer acetaminophen if analgesic needed."
+    },
+    {
+      "drug_a": "lidocaine",
+      "drug_b": "amiodarone",
+      "severity": "moderate",
+      "description": "Additive sodium channel blockade and risk of AV block, bradycardia, and hypotension.",
+      "management": "Avoid concurrent use in routine settings. If both needed (refractory VT), monitor ECG and hemodynamics closely."
+    },
+    {
+      "drug_a": "sodium_bicarbonate",
+      "drug_b": "calcium_gluconate",
+      "severity": "major",
+      "description": "Physical incompatibility: calcium carbonate precipitate forms when mixed. Do not infuse in same IV line.",
+      "management": "Administer via separate IV sites or flush line completely between doses."
+    },
+    {
+      "drug_a": "diphenhydramine",
+      "drug_b": "haloperidol",
+      "severity": "moderate",
+      "description": "Additive anticholinergic effects: urinary retention, confusion, constipation, excessive sedation. Risk of anticholinergic syndrome.",
+      "management": "Use lowest effective doses. Monitor for anticholinergic symptoms, especially in elderly patients."
+    },
+    {
+      "drug_a": "diphenhydramine",
+      "drug_b": "midazolam",
+      "severity": "moderate",
+      "description": "Additive CNS depression and sedation.",
+      "management": "Reduce doses and monitor sedation level."
+    },
+    {
+      "drug_a": "tranexamic_acid",
+      "drug_b": "heparin",
+      "severity": "moderate",
+      "description": "Opposing pharmacological effects. TXA is antifibrinolytic; heparin is anticoagulant. Clinical significance depends on indication and timing.",
+      "management": "Generally used for different indications. Monitor for signs of thrombosis when TXA is used in anticoagulated patients."
+    }
+  ]
+}

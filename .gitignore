@@ -1,0 +1,120 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# ─── Distribution / packaging ─────────────────────────────────────────────────
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ─── PyInstaller ──────────────────────────────────────────────────────────────
+*.manifest
+*.spec
+
+# ─── Installer logs ───────────────────────────────────────────────────────────
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ─── Unit test / coverage ─────────────────────────────────────────────────────
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytest-cache-files-*/
+
+# ─── Translations ─────────────────────────────────────────────────────────────
+*.mo
+*.pot
+
+# ─── Django / Flask ───────────────────────────────────────────────────────────
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+
+# ─── Scrapy ───────────────────────────────────────────────────────────────────
+.scrapy
+
+# ─── Sphinx ───────────────────────────────────────────────────────────────────
+docs/_build/
+docs/api/
+
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints
+*.ipynb
+
+# ─── pyenv / virtualenvs ──────────────────────────────────────────────────────
+.python-version
+.venv
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ─── Poetry ───────────────────────────────────────────────────────────────────
+poetry.lock
+
+# ─── Ruff / linters ───────────────────────────────────────────────────────────
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ─── IDEs ─────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ─── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# ─── Secrets / env ────────────────────────────────────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+
+# ─── PyPI / twine ─────────────────────────────────────────────────────────────
+dist/
+*.whl
+*.tar.gz
