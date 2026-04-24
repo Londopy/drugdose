@@ -9,9 +9,9 @@
 
 ---
 
-> **⚠️ Medical Disclaimer**
+**⚠️ Medical Disclaimer**
 > `drugdose` is a **clinical decision-support tool** intended for use by licensed healthcare professionals. It does not replace professional clinical judgment, institutional protocols, or current drug references (e.g. Lexicomp, Micromedex). Always verify doses independently before administration. The authors assume no liability for patient outcomes.
-
+**[Read the full legal disclaimer →](DISCLAIMER.md)**
 ---
 
 ## Features
@@ -410,7 +410,7 @@ Please include a citation for any dose ranges added or modified.
 
 ## License
 
-MIT © 2026 London Chowdhury. See [LICENSE](LICENSE) for full text.
+MIT © 2026. See [LICENSE](LICENSE) for full text.
 
 ---
 
