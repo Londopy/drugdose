@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "drugdose"
-version = "0.1.1"
+version = "0.1.2"
 description = "EMS & clinical drug dosing calculator library with CLI"
 readme = "README.md"
 license = { text = "MIT" }
