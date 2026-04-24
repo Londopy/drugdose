@@ -43,9 +43,8 @@ Exceptions:
     ConcentrationError
 """
 
-__version__ = "0.1.0"
-__author__ = "London Chowdhury"
-__email__ = "londonchowdhury.college@gmail.com"
+__version__ = "0.1.2"
+__author__  = "Londopy"
 __license__ = "MIT"
 
 # ── Public re-exports ─────────────────────────────────────────────────────

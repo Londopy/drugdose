@@ -694,7 +694,7 @@ def cmd_version() -> None:
     console.print(Panel(
         f"[bold white]drugdose[/bold white]  v[cyan]{__version__}[/cyan]\n"
         "[dim]EMS & Clinical Drug Dosing Calculator Library\n"
-        "https://github.com/londonchowdhury/drugdose[/dim]",
+        "https://github.com/Londopy/drugdose[/dim]",
         style="bright_blue",
         expand=False,
     ))
