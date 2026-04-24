@@ -7,7 +7,7 @@ name = "drugdose"
 version = "0.1.0"
 description = "EMS & clinical drug dosing calculator library with CLI"
 readme = "README.md"
-license = "MIT"
+license = { text = "MIT" }
 keywords = ["EMS", "pharmacology", "drug dosing", "clinical", "paramedic", "calculator"]
 classifiers = [
     "Development Status :: 3 - Alpha",
